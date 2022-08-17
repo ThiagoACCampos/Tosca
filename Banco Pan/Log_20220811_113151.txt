@@ -1,0 +1,27 @@
+[3] 11:31:51: Log started for 'C:\Tosca_Projects\Tosca_Workspaces\Banco Pan\Banco Pan.tws'
+[3] 11:31:51: Log level: 4
+[3] 11:31:51: Release: 14.2.0.36604
+[3] 11:31:53: No service discovery configured.
+[3] 11:31:53:  - CloudDistributedExecutionAddIn: CloudDistributedExecutionAddIn 14.2.0.256 (36571)
+[3] 11:31:53:  + DistributedExecutionAddIn: DistributedExecutionAddIn 14.2.0.256 (36303)
+[3] 11:31:53:  + ExploratoryTestingAssistant: ExploratoryTestingAssistantAddIn 14.2.0.256 (36303)
+[3] 11:31:53:  + ExploratoryTestingAssistantUI: ExploratoryTestingAssistantUIAddIn 14.2.0.256 (36303)
+[3] 11:31:53:  + IntegrationManagementAddIn: IntegrationManagementAddIn 14.2.0.256 (36422)
+    - : QTestIntegration 14.2.0.149 (149)
+    + : SAPSolutionManagerIntegration 14.2.0.149 (149)
+[3] 11:31:53: Search started on 1 objects for query '->PROJECT->SUBPARTS:TCFolder[Name=="Execution"]->SUBPARTS:TCFolder=>SUBPARTS:InteractiveSession'
+[3] 11:31:53: Searcher found 0 results in 118,1045 ms
+[3] 11:31:53:  + OptIntAddIn: OptIntAddIn 14.2.0.256 (36303)
+[3] 11:31:53:  + QTestIntegrationAddIn: QTestIntegrationAddIn 14.2.0.256 (36486)
+[3] 11:31:53:  + RemoteControl: RemoteControlAddIn 14.2.0.256 (36303)
+[3] 11:31:53:  + Reporting: ReportingAddIn 14.2.0.256 (36303)
+[3] 11:31:53:  + ReportingUI: ReportingUIAddIn 14.2.0.256 (36303)
+[3] 11:31:53:  + RequirementsManagementAddIn: RequirementsManagement 14.2.0.256 (36476)
+[3] 11:31:53:  + RequirementsManagementUIAddIn: RequirementsManagementUI 14.2.0.256 (36303)
+[3] 11:31:53:  + SAPSolutionManagerAddIn: SAPSolutionManagerAddIn 14.2.0.256 (36583)
+[3] 11:31:53:  + TestCaseDesign: TestCaseDesign 14.2.0.256 (36303)
+[3] 11:31:53:  + ControlFlowDiagram: TestCaseVisualizationAddIn 14.2.0.256 (36303)
+[3] 11:31:53:  + XDefinitions: XDefinitions 14.2.0.256 (36576)
+[3] 11:31:53:  + XDefinitionsUI: XDefinitionsUI 14.2.0.256 (36460)
+[3] 11:31:53: Opened from Workspace File 'C:\Tosca_Projects\Tosca_Workspaces\Banco Pan\Banco Pan.tws'
+[4] 11:31:56:  ShowStatusInfo: 'Ready'

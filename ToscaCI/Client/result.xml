@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+  <testsuite name="Build 220817 1726" tests="1" failures="1" skipped="0" time="12.044" timestamp="2022-08-17T17:26:45.4132202-03:00" id="3a05bfa9-851b-c58c-7065-eea74dec14d1" log="created: 17/08/2022 17:26:45">
+    <testcase name="Validar Conta Digital" time="12.044" timestamp="2022-08-17T17:26:53.8426173-03:00" log="- Failed Validar Conta Digital&#xD;&#xA;+ Passed  Abrir site&#xD;&#xA;&#xD;&#xA;+ Passed  Aguardar Carregamento&#xD;&#xA;+ Passed   Produtos {LogInfo='Verification was successful.&#xD;&#xA;Expected value == &quot;True&quot;&#xD;&#xA;Actual value: &quot;True&quot;',UsedValue='True'}&#xD;&#xA;&#xD;&#xA;+ Passed  Screenshot {LogInfo='The screenshot was successfully created.'}&#xD;&#xA;&#xD;&#xA;+ Passed  Clicar em Produtos&#xD;&#xA;+ Passed   Produtos {UsedValue='X'}&#xD;&#xA;&#xD;&#xA;+ Passed  Clicar em Conta Digital&#xD;&#xA;+ Passed   Conta Digital&#xD;&#xA;&#xD;&#xA;- Failed  Aguardar Carregamento&#xD;&#xA;- Failed   Conheça a Conta Digital {LogInfo='Verification has failed.&#xD;&#xA;Expected value == &quot;False&quot;&#xD;&#xA;Actual value: &quot;True&quot;',UsedValue='False'}&#xD;&#xA;&#xD;&#xA;+ Passed  Screenshot {LogInfo='The screenshot was successfully created.'}&#xD;&#xA;&#xD;&#xA;+ Passed  Clicar em Conheça a Conta Digital&#xD;&#xA;+ Passed   Conheça a Conta Digital {UsedValue='X'}&#xD;&#xA;&#xD;&#xA;+ Passed  Aguardar Carregamento {LogInfo='Waited for &gt;3000&lt; milliseconds.'}&#xD;&#xA;&#xD;&#xA;+ Passed  Validar Página&#xD;&#xA;+ Passed   Botão Abra sua Conta {LogInfo='Verification was successful.&#xD;&#xA;Expected value == &quot;True&quot;&#xD;&#xA;Actual value: &quot;True&quot;',UsedValue='True'}&#xD;&#xA;&#xD;&#xA;+ Passed  Validar URL Página&#xD;&#xA;+ Passed   url {LogInfo='Verification was successful.&#xD;&#xA;Expression: &quot;== *bancopan.com.br/produtos/conta-digital/&quot;&#xD;&#xA;Actual value: &quot;bancopan.com.br/produtos/conta-digital/&quot;',UsedValue='*bancopan.com.br/produtos/conta-digital/'}&#xD;&#xA;&#xD;&#xA;+ Passed  Screenshot {LogInfo='The screenshot was successfully created.'}&#xD;&#xA;&#xD;&#xA;+ Passed  Fechar Navegador&#xD;&#xA;&#xD;&#xA;">
+      <failure message="Test failure">- Failed Validar Conta Digital
++ Passed  Abrir site
+
++ Passed  Aguardar Carregamento
++ Passed   Produtos {LogInfo='Verification was successful.
+Expected value == "True"
+Actual value: "True"',UsedValue='True'}
+
++ Passed  Screenshot {LogInfo='The screenshot was successfully created.'}
+
++ Passed  Clicar em Produtos
++ Passed   Produtos {UsedValue='X'}
+
++ Passed  Clicar em Conta Digital
++ Passed   Conta Digital
+
+- Failed  Aguardar Carregamento
+- Failed   Conheça a Conta Digital {LogInfo='Verification has failed.
+Expected value == "False"
+Actual value: "True"',UsedValue='False'}
+
++ Passed  Screenshot {LogInfo='The screenshot was successfully created.'}
+
++ Passed  Clicar em Conheça a Conta Digital
++ Passed   Conheça a Conta Digital {UsedValue='X'}
+
++ Passed  Aguardar Carregamento {LogInfo='Waited for &gt;3000&lt; milliseconds.'}
+
++ Passed  Validar Página
++ Passed   Botão Abra sua Conta {LogInfo='Verification was successful.
+Expected value == "True"
+Actual value: "True"',UsedValue='True'}
+
++ Passed  Validar URL Página
++ Passed   url {LogInfo='Verification was successful.
+Expression: "== *bancopan.com.br/produtos/conta-digital/"
+Actual value: "bancopan.com.br/produtos/conta-digital/"',UsedValue='*bancopan.com.br/produtos/conta-digital/'}
+
++ Passed  Screenshot {LogInfo='The screenshot was successfully created.'}
+
++ Passed  Fechar Navegador
+
+</failure>
+    </testcase>
+  </testsuite>
+</testsuites>

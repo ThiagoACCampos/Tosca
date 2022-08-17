@@ -1,0 +1,77 @@
+[3] 11:41:54: Log started for 'C:\Tosca_Projects\Tosca_Workspaces\Banco Pan\Banco Pan.tws'
+[3] 11:41:54: Log level: 4
+[3] 11:41:54: Release: 14.2.0.36604
+[3] 11:41:56: No service discovery configured.
+[3] 11:41:56:  - CloudDistributedExecutionAddIn: CloudDistributedExecutionAddIn 14.2.0.256 (36571)
+[3] 11:41:56:  + DistributedExecutionAddIn: DistributedExecutionAddIn 14.2.0.256 (36303)
+[3] 11:41:56:  + ExploratoryTestingAssistant: ExploratoryTestingAssistantAddIn 14.2.0.256 (36303)
+[3] 11:41:56:  + ExploratoryTestingAssistantUI: ExploratoryTestingAssistantUIAddIn 14.2.0.256 (36303)
+[3] 11:41:56:  + IntegrationManagementAddIn: IntegrationManagementAddIn 14.2.0.256 (36422)
+    - : QTestIntegration 14.2.0.149 (149)
+    + : SAPSolutionManagerIntegration 14.2.0.149 (149)
+[3] 11:41:56: Search started on 1 objects for query '->PROJECT->SUBPARTS:TCFolder[Name=="Execution"]->SUBPARTS:TCFolder=>SUBPARTS:InteractiveSession'
+[3] 11:41:56: Searcher found 0 results in 118,2423 ms
+[3] 11:41:56:  + OptIntAddIn: OptIntAddIn 14.2.0.256 (36303)
+[3] 11:41:56:  + QTestIntegrationAddIn: QTestIntegrationAddIn 14.2.0.256 (36486)
+[3] 11:41:56:  + RemoteControl: RemoteControlAddIn 14.2.0.256 (36303)
+[3] 11:41:56:  + Reporting: ReportingAddIn 14.2.0.256 (36303)
+[3] 11:41:56:  + ReportingUI: ReportingUIAddIn 14.2.0.256 (36303)
+[3] 11:41:56:  + RequirementsManagementAddIn: RequirementsManagement 14.2.0.256 (36476)
+[3] 11:41:56:  + RequirementsManagementUIAddIn: RequirementsManagementUI 14.2.0.256 (36303)
+[3] 11:41:56:  + SAPSolutionManagerAddIn: SAPSolutionManagerAddIn 14.2.0.256 (36583)
+[3] 11:41:56:  + TestCaseDesign: TestCaseDesign 14.2.0.256 (36303)
+[3] 11:41:56:  + ControlFlowDiagram: TestCaseVisualizationAddIn 14.2.0.256 (36303)
+[3] 11:41:56:  + XDefinitions: XDefinitions 14.2.0.256 (36576)
+[3] 11:41:56:  + XDefinitionsUI: XDefinitionsUI 14.2.0.256 (36460)
+[3] 11:41:56: Opened from Workspace File 'C:\Tosca_Projects\Tosca_Workspaces\Banco Pan\Banco Pan.tws'
+[0] 11:41:57: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tricentis.TCCore.Base.Workspace.IsFileServiceEnabledInRepository()
+[3] 11:41:57: OpenWorkspace took 00:00:03.1016973 to finish
+[4] 11:41:59:  ShowStatusInfo: 'Ready'
+[4] 11:42:03:  ShowStatusInfo: 'Refresh navigation view 'TestCases''
+[4] 11:42:03:  ShowStatusInfo: 'Ready'
+[4] 11:42:03:  ShowStatusInfo: 'Refresh navigation view 'Modules''
+[4] 11:42:03:  ShowStatusInfo: 'Refresh navigation view 'TestCaseDesign''
+[4] 11:42:03:  ShowStatusInfo: 'Refresh navigation view 'Execution''
+[4] 11:42:03:  ShowStatusInfo: 'Refresh navigation view 'ScratchBook''
+[4] 11:42:03:  ShowStatusInfo: 'Ready'
+[4] 11:42:03:  ShowStatusInfo: 'Refresh detail view 'TestCases''
+[4] 11:42:03:  ShowStatusInfo: 'Ready'
+[4] 11:42:03:  ShowStatusInfo: 'Refresh detail view 'Modules''
+[4] 11:42:03:  ShowStatusInfo: 'Refresh detail view 'TestCaseDesign''
+[4] 11:42:03:  ShowStatusInfo: 'Refresh detail view 'Execution''
+[4] 11:42:03:  ShowStatusInfo: 'Refresh detail view 'ScratchBook''
+[4] 11:42:03:  ShowStatusInfo: 'Ready'
+[4] 11:42:03:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 11:42:03:  ShowStatusInfo: 'Refresh all finished'
+[4] 11:42:03:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 11:42:03:  ShowStatusInfo: 'Refresh navigation view 'TestCases''
+[4] 11:42:03:  ShowStatusInfo: 'Ready'
+[4] 11:42:03:  ShowStatusInfo: 'Refresh navigation view 'Modules''
+[4] 11:42:03:  ShowStatusInfo: 'Refresh navigation view 'TestCaseDesign''
+[4] 11:42:03:  ShowStatusInfo: 'Refresh navigation view 'Execution''
+[4] 11:42:03:  ShowStatusInfo: 'Refresh navigation view 'ScratchBook''
+[4] 11:42:03:  ShowStatusInfo: 'Ready'
+[4] 11:42:03:  ShowStatusInfo: 'Refresh detail view 'TestCases''
+[4] 11:42:03:  ShowStatusInfo: 'Ready'
+[4] 11:42:03:  ShowStatusInfo: 'Refresh detail view 'Modules''
+[4] 11:42:03:  ShowStatusInfo: 'Refresh detail view 'TestCaseDesign''
+[4] 11:42:03:  ShowStatusInfo: 'Refresh detail view 'Execution''
+[4] 11:42:03:  ShowStatusInfo: 'Refresh detail view 'ScratchBook''
+[4] 11:42:03:  ShowStatusInfo: 'Ready'
+[4] 11:42:03:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 11:42:04:  ShowStatusInfo: 'Refresh all finished'
+[4] 11:42:09:  ShowStatusInfo: 'Ready'
+[4] 11:42:27:  ShowStatusInfo: '1 object selected'
+[4] 11:42:27:  ShowStatusInfo: 'Ready'
+[3] 11:42:35: Task 'Export Subset' started on ''
+[4] 11:42:35:  ShowStatusInfo: 'Export Subset'
+[4] 11:42:40:  ShowStatusInfo: 'Ready'
+[4] 11:42:42:  ShowStatusInfo: 'Export Subset: Collecting objects 2603'
+[4] 11:42:43:  ShowStatusInfo: 'Export Subset: Writing file 'C:\Users\ThiagoAssisCoelhoCam\Documents\Banco PAN\Projeto Banco PAN.tsu' '
+[4] 11:42:45:  ShowStatusInfo: 'Ready'
+[4] 11:42:45:  ShowStatusInfo: 'Export Subset finished'
+[3] 11:42:45: Task 'Export Subset' finished
+[4] 11:42:50:  ShowStatusInfo: 'Ready'
+[3] 11:45:03: Closing Workspace!
+[3] 11:45:03: Log closed!

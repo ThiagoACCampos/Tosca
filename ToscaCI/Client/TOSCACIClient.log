@@ -1,0 +1,274 @@
+2022-08-17 14:45:40,370 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.LocalDispatcher -  Client started
+2022-08-17 14:45:40,390 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.LocalDispatcher - Starting local execution
+2022-08-17 14:45:40,390 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.LocalDispatcher - Configuration File Path:
+2022-08-17 14:45:40,444 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Getting license...
+2022-08-17 14:46:12,925 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Opening workspace: C:\Tosca_Projects\Tosca_Workspaces\Continuous Integration\Continuous Integration.tws
+2022-08-17 14:46:22,643 [1] ERROR TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutionController - Workspace locked by another process
+Inner Exception: 
+Tricentis.TCCore.Persistency.Repository.UnableToLockRepositoryException: Workspace locked by another process 'SMPBRJ135P4CC.13364:ThiagoAssisCoelhoCam'
+   em Tricentis.TCCore.Base.Workspace.AddOrWaitForLock(TimeSpan maxTimeToWait)
+   em Tricentis.TCCore.Base.Workspace.GetExclusiveLock(TimeSpan maxTimeToWait)
+   em Tricentis.TCCore.Base.Workspace.LockWorkspaceExclusive(TimeSpan maxTimeToWait)
+   em Tricentis.TCCore.Base.Workspace.LockWorkspaceExclusive()
+   em Tricentis.TCAPINativeConnector.Objects.TCAPINativeWorkspace..ctor(String twsPath, String loginName, String loginPassword, Int32 logLevel, TCConnectionBase myApiConnection)
+
+Server stack trace: 
+   em Tricentis.TCAPINativeConnector.Objects.TCAPINativeWorkspace..ctor(String twsPath, String loginName, String loginPassword, Int32 logLevel, TCConnectionBase myApiConnection)
+   em Tricentis.TCAPINativeConnector.TCAPINativeConnection.InternalOpenWorkspace(String twsPath, String loginUser, String loginPassword, Int32 logLevel, TCConnectionBase myApiConnection)
+   em Tricentis.TCAPIObjects.TCConnectionBase.OpenWorkspace(String twsPath, String loginUser, String loginPassword, Int32 logLevel)
+   em System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Object[]& outArgs)
+   em System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   em Tricentis.TCAPI.TCAPI.OpenWorkspace(String twsPath, String loginName, String loginPassword, Int32 logLevel)
+   em TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor.InitializeAPIAndOpenWorkSpace()
+   em TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutionController.ExecuteViaAPI(String resultType, AbstractCITestConfigurationRootNode testConfigurationRoot, AbstractCITestExecutor executor)
+2022-08-17 14:46:22,644 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Closing workspace and restoring license...
+2022-08-17 14:46:34,164 [1] ERROR TOSCAContinuousIntegration.TOSCACIClient.Program - Main: TCApiException occured
+Workspace locked by another process
+Inner Exception: 
+Tricentis.TCCore.Persistency.Repository.UnableToLockRepositoryException: Workspace locked by another process 'SMPBRJ135P4CC.13364:ThiagoAssisCoelhoCam'
+   em Tricentis.TCCore.Base.Workspace.AddOrWaitForLock(TimeSpan maxTimeToWait)
+   em Tricentis.TCCore.Base.Workspace.GetExclusiveLock(TimeSpan maxTimeToWait)
+   em Tricentis.TCCore.Base.Workspace.LockWorkspaceExclusive(TimeSpan maxTimeToWait)
+   em Tricentis.TCCore.Base.Workspace.LockWorkspaceExclusive()
+   em Tricentis.TCAPINativeConnector.Objects.TCAPINativeWorkspace..ctor(String twsPath, String loginName, String loginPassword, Int32 logLevel, TCConnectionBase myApiConnection)
+
+Server stack trace: 
+   em Tricentis.TCAPINativeConnector.Objects.TCAPINativeWorkspace..ctor(String twsPath, String loginName, String loginPassword, Int32 logLevel, TCConnectionBase myApiConnection)
+   em Tricentis.TCAPINativeConnector.TCAPINativeConnection.InternalOpenWorkspace(String twsPath, String loginUser, String loginPassword, Int32 logLevel, TCConnectionBase myApiConnection)
+   em Tricentis.TCAPIObjects.TCConnectionBase.OpenWorkspace(String twsPath, String loginUser, String loginPassword, Int32 logLevel)
+   em System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Object[]& outArgs)
+   em System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   em Tricentis.TCAPI.TCAPI.OpenWorkspace(String twsPath, String loginName, String loginPassword, Int32 logLevel)
+   em TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor.InitializeAPIAndOpenWorkSpace()
+   em TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutionController.ExecuteViaAPI(String resultType, AbstractCITestConfigurationRootNode testConfigurationRoot, AbstractCITestExecutor executor)
+   em TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutionController.ExecuteTestWithXmlConfiguration(String resultType, XmlDocument testConfiguration)
+   em TOSCAContinuousIntegration.TOSCACIExecution.CIExecutionManager.ExecuteTest(String resultType)
+   em TOSCAContinuousIntegration.TOSCACIClient.Dispatching.LocalDispatcher.Execute()
+   em TOSCAContinuousIntegration.TOSCACIClient.Dispatching.LocalDispatcher.Execute()
+   em TOSCAContinuousIntegration.TOSCACIClient.Program.Main(String[] args)
+2022-08-17 15:02:28,512 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.LocalDispatcher -  Client started
+2022-08-17 15:02:28,539 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.LocalDispatcher - Starting local execution
+2022-08-17 15:02:28,539 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.LocalDispatcher - Configuration File Path:
+2022-08-17 15:02:28,551 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Getting license...
+2022-08-17 15:02:38,231 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Opening workspace: C:\Tosca_Projects\Tosca_Workspaces\Continuous Integration\Continuous Integration.tws
+2022-08-17 15:02:42,814 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Executing CI Test...
+2022-08-17 15:02:42,833 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Searching for BuildRootFolder...
+2022-08-17 15:02:43,137 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Single ContinuousIntegrationBuildRootFolder found: Continuous Integration
+2022-08-17 15:02:44,153 [1] ERROR TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutionController - No enabled ExecutionListEntries found for current execution.
+   em TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor.BuildExecutionListOrTestMandateContent(ExecutionList testMandate, TCProject project, List`1 executeableobjects)
+   em TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor.ExecuteCITest(String resultType, TCWorkspace workspace)
+   em TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutionController.ExecuteViaAPI(String resultType, AbstractCITestConfigurationRootNode testConfigurationRoot, AbstractCITestExecutor executor)
+2022-08-17 15:02:44,154 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Closing workspace and restoring license...
+2022-08-17 15:03:00,069 [1] ERROR TOSCAContinuousIntegration.TOSCACIClient.Program - Main: CIException occured
+No enabled ExecutionListEntries found for current execution.
+   em TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor.BuildExecutionListOrTestMandateContent(ExecutionList testMandate, TCProject project, List`1 executeableobjects)
+   em TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor.ExecuteCITest(String resultType, TCWorkspace workspace)
+   em TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutionController.ExecuteViaAPI(String resultType, AbstractCITestConfigurationRootNode testConfigurationRoot, AbstractCITestExecutor executor)
+   em TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutionController.ExecuteTestWithXmlConfiguration(String resultType, XmlDocument testConfiguration)
+   em TOSCAContinuousIntegration.TOSCACIExecution.CIExecutionManager.ExecuteTest(String resultType)
+   em TOSCAContinuousIntegration.TOSCACIClient.Dispatching.LocalDispatcher.Execute()
+   em TOSCAContinuousIntegration.TOSCACIClient.Dispatching.LocalDispatcher.Execute()
+   em TOSCAContinuousIntegration.TOSCACIClient.Program.Main(String[] args)
+2022-08-17 15:05:26,807 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.LocalDispatcher -  Client started
+2022-08-17 15:05:26,825 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.LocalDispatcher - Starting local execution
+2022-08-17 15:05:26,825 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.LocalDispatcher - Configuration File Path:
+2022-08-17 15:05:26,836 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Getting license...
+2022-08-17 15:05:36,529 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Opening workspace: C:\Tosca_Projects\Tosca_Workspaces\Continuous Integration\Continuous Integration.tws
+2022-08-17 15:05:41,031 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Executing CI Test...
+2022-08-17 15:05:41,042 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Searching for BuildRootFolder...
+2022-08-17 15:05:41,309 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Single ContinuousIntegrationBuildRootFolder found: Continuous Integration
+2022-08-17 15:05:52,259 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Creating junit test result...
+2022-08-17 15:05:52,745 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Closing workspace and restoring license...
+2022-08-17 15:06:10,078 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.LocalDispatcher - Test execution has been finished.
+2022-08-17 15:06:10,079 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Program - Result was printed to >C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\ToscaCommander\ToscaCI\Client\result.xml<
+2022-08-17 15:10:05,921 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.LocalDispatcher -  Client started
+2022-08-17 15:10:05,944 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.LocalDispatcher - Starting local execution
+2022-08-17 15:10:05,944 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.LocalDispatcher - Configuration File Path:
+2022-08-17 15:10:05,960 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Getting license...
+2022-08-17 15:10:15,363 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Opening workspace: C:\Tosca_Projects\Tosca_Workspaces\Continuous Integration\Continuous Integration.tws
+2022-08-17 15:10:19,797 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Executing CI Test...
+2022-08-17 15:10:19,809 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Searching for BuildRootFolder...
+2022-08-17 15:10:20,092 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Single ContinuousIntegrationBuildRootFolder found: Continuous Integration
+2022-08-17 15:10:30,960 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Creating junit test result...
+2022-08-17 15:10:31,365 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Closing workspace and restoring license...
+2022-08-17 15:10:47,539 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.LocalDispatcher - Test execution has been finished.
+2022-08-17 15:10:47,540 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Program - Result was printed to >C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\ToscaCommander\ToscaCI\Client\result.xml<
+2022-08-17 15:27:30,325 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.LocalDispatcher -  Client started
+2022-08-17 15:27:30,343 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.LocalDispatcher - Starting local execution
+2022-08-17 15:27:30,344 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.LocalDispatcher - Configuration File Path:
+2022-08-17 15:27:30,356 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Getting license...
+2022-08-17 15:27:39,219 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Opening workspace: C:\Tosca_Projects\Tosca_Workspaces\Banco Pan\Banco Pan.tws
+2022-08-17 15:27:43,861 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Executing CI Test...
+2022-08-17 15:27:43,874 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Searching for BuildRootFolder...
+2022-08-17 15:27:44,140 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Single ContinuousIntegrationBuildRootFolder found: CI Testes
+2022-08-17 15:28:31,473 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Creating junit test result...
+2022-08-17 15:28:31,857 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Closing workspace and restoring license...
+2022-08-17 15:28:48,614 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.LocalDispatcher - Test execution has been finished.
+2022-08-17 15:28:48,615 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Program - Result was printed to >C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\ToscaCommander\ToscaCI\Client\result.xml<
+2022-08-17 15:33:32,088 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.LocalDispatcher -  Client started
+2022-08-17 15:33:32,113 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.LocalDispatcher - Starting local execution
+2022-08-17 15:33:32,113 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.LocalDispatcher - Configuration File Path:
+2022-08-17 15:33:32,129 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Getting license...
+2022-08-17 15:33:41,845 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Opening workspace: C:\Tosca_Projects\Tosca_Workspaces\Banco Pan\Banco Pan.tws
+2022-08-17 15:33:46,566 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Executing CI Test...
+2022-08-17 15:33:46,588 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Searching for BuildRootFolder...
+2022-08-17 15:33:46,893 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Single ContinuousIntegrationBuildRootFolder found: CI Testes
+2022-08-17 15:34:35,082 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Creating junit test result...
+2022-08-17 15:34:35,506 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Closing workspace and restoring license...
+2022-08-17 15:34:52,391 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.LocalDispatcher - Test execution has been finished.
+2022-08-17 15:34:52,392 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Program - Result was printed to >C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\ToscaCommander\ToscaCI\Client\result.xml<
+2022-08-17 15:39:41,594 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.LocalDispatcher -  Client started
+2022-08-17 15:39:41,617 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.LocalDispatcher - Starting local execution
+2022-08-17 15:39:41,617 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.LocalDispatcher - Configuration File Path:
+2022-08-17 15:39:41,636 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Getting license...
+2022-08-17 15:39:51,282 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Opening workspace: C:\Tosca_Projects\Tosca_Workspaces\Banco Pan\Banco Pan.tws
+2022-08-17 15:39:55,873 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Executing CI Test...
+2022-08-17 15:39:55,884 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Searching for BuildRootFolder...
+2022-08-17 15:39:56,170 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Single ContinuousIntegrationBuildRootFolder found: CI Testes
+2022-08-17 15:40:44,257 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Creating junit test result...
+2022-08-17 15:40:44,647 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Closing workspace and restoring license...
+2022-08-17 15:40:58,654 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.LocalDispatcher - Test execution has been finished.
+2022-08-17 15:40:58,654 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Program - Result was printed to >C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\ToscaCommander\ToscaCI\Client\result.xml<
+2022-08-17 15:50:22,120 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.LocalDispatcher -  Client started
+2022-08-17 15:50:22,137 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.LocalDispatcher - Starting local execution
+2022-08-17 15:50:22,137 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.LocalDispatcher - Configuration File Path:
+2022-08-17 15:50:22,150 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Getting license...
+2022-08-17 15:50:32,437 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Opening workspace: C:\Tosca_Projects\Tosca_Workspaces\Banco Pan\Banco Pan.tws
+2022-08-17 15:50:37,369 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Executing CI Test...
+2022-08-17 15:50:37,387 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Searching for BuildRootFolder...
+2022-08-17 15:50:37,667 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Single ContinuousIntegrationBuildRootFolder found: CI Testes
+2022-08-17 15:51:25,101 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Creating junit test result...
+2022-08-17 15:51:25,454 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Closing workspace and restoring license...
+2022-08-17 15:51:39,847 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.LocalDispatcher - Test execution has been finished.
+2022-08-17 15:51:39,848 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Program - Result was printed to >C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\ToscaCommander\ToscaCI\Client\result.xml<
+2022-08-17 16:14:29,681 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.LocalDispatcher -  Client started
+2022-08-17 16:14:29,710 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.LocalDispatcher - Starting local execution
+2022-08-17 16:14:29,711 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.LocalDispatcher - Configuration File Path:
+2022-08-17 16:14:29,727 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Getting license...
+2022-08-17 16:14:39,693 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Opening workspace: C:\Tosca_Projects\Tosca_Workspaces\Banco Pan\Banco Pan.tws
+2022-08-17 16:14:43,816 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Executing CI Test...
+2022-08-17 16:14:43,826 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Searching for BuildRootFolder...
+2022-08-17 16:14:44,100 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Single ContinuousIntegrationBuildRootFolder found: CI Testes
+2022-08-17 16:15:32,015 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Creating junit test result...
+2022-08-17 16:15:32,358 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Closing workspace and restoring license...
+2022-08-17 16:15:47,387 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.LocalDispatcher - Test execution has been finished.
+2022-08-17 16:15:47,388 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Program - Result was printed to >C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\ToscaCommander\ToscaCI\Client\result.xml<
+2022-08-17 16:23:17,844 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.LocalDispatcher -  Client started
+2022-08-17 16:23:17,863 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.LocalDispatcher - Starting local execution
+2022-08-17 16:23:17,863 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.LocalDispatcher - Configuration File Path:
+2022-08-17 16:23:17,877 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Getting license...
+2022-08-17 16:23:29,250 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Opening workspace: C:\Tosca_Projects\Tosca_Workspaces\Banco Pan\Banco Pan.tws
+2022-08-17 16:23:33,928 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Executing CI Test...
+2022-08-17 16:23:33,939 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Searching for BuildRootFolder...
+2022-08-17 16:23:34,204 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Single ContinuousIntegrationBuildRootFolder found: CI Testes
+2022-08-17 16:24:25,095 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Creating junit test result...
+2022-08-17 16:24:25,491 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Closing workspace and restoring license...
+2022-08-17 16:24:40,822 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.LocalDispatcher - Test execution has been finished.
+2022-08-17 16:24:40,823 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Program - Result was printed to >C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\ToscaCommander\ToscaCI\Client\result.xml<
+2022-08-17 16:30:12,112 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.LocalDispatcher -  Client started
+2022-08-17 16:30:12,131 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.LocalDispatcher - Starting local execution
+2022-08-17 16:30:12,131 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.LocalDispatcher - Configuration File Path:
+2022-08-17 16:30:12,142 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Getting license...
+2022-08-17 16:30:22,017 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Opening workspace: C:\Tosca_Projects\Tosca_Workspaces\Banco Pan\Banco Pan.tws
+2022-08-17 16:30:26,771 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Executing CI Test...
+2022-08-17 16:30:26,787 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Searching for BuildRootFolder...
+2022-08-17 16:30:27,083 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Single ContinuousIntegrationBuildRootFolder found: CI Testes
+2022-08-17 16:31:15,713 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Creating junit test result...
+2022-08-17 16:31:16,142 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Closing workspace and restoring license...
+2022-08-17 16:31:32,246 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.LocalDispatcher - Test execution has been finished.
+2022-08-17 16:31:32,246 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Program - Result was printed to >C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\ToscaCommander\ToscaCI\Client\result.xml<
+2022-08-17 16:37:25,472 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.LocalDispatcher -  Client started
+2022-08-17 16:37:25,506 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.LocalDispatcher - Starting local execution
+2022-08-17 16:37:25,506 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.LocalDispatcher - Configuration File Path:
+2022-08-17 16:37:25,523 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Getting license...
+2022-08-17 16:37:36,290 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Opening workspace: C:\Tosca_Projects\Tosca_Workspaces\Banco Pan\Banco Pan.tws
+2022-08-17 16:37:41,157 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Executing CI Test...
+2022-08-17 16:37:41,170 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Searching for BuildRootFolder...
+2022-08-17 16:37:41,491 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Single ContinuousIntegrationBuildRootFolder found: CI Testes
+2022-08-17 16:38:29,166 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Creating junit test result...
+2022-08-17 16:38:29,565 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Closing workspace and restoring license...
+2022-08-17 16:38:44,298 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.LocalDispatcher - Test execution has been finished.
+2022-08-17 16:38:44,298 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Program - Result was printed to >C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\ToscaCommander\ToscaCI\Client\result.xml<
+2022-08-17 16:41:26,389 [1] ERROR TOSCAContinuousIntegration.TOSCACIClient.Program - Main: Please use the following command line syntax:
+TOSCACIClient.exe -m local|distributed
+
+   em TOSCAContinuousIntegration.TOSCACIClient.CommandLineArguments.CLArgumentParser.ParseArguments(String[] args, Object arguments)
+   em TOSCAContinuousIntegration.TOSCACIClient.Program.Main(String[] args)
+2022-08-17 16:47:37,974 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.LocalDispatcher -  Client started
+2022-08-17 16:47:37,992 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.LocalDispatcher - Starting local execution
+2022-08-17 16:47:37,992 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.LocalDispatcher - Configuration File Path:
+2022-08-17 16:47:38,004 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Getting license...
+2022-08-17 16:47:47,914 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Opening workspace: C:\Tosca_Projects\Tosca_Workspaces\Banco Pan\Banco Pan.tws
+2022-08-17 16:47:51,823 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Executing CI Test...
+2022-08-17 16:47:51,834 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Searching for BuildRootFolder...
+2022-08-17 16:47:52,077 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Single ContinuousIntegrationBuildRootFolder found: CI Testes
+2022-08-17 16:48:38,537 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Creating junit test result...
+2022-08-17 16:48:38,819 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Closing workspace and restoring license...
+2022-08-17 16:48:52,727 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.LocalDispatcher - Test execution has been finished.
+2022-08-17 16:48:52,727 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Program - Result was printed to >c:\Result.xml<
+2022-08-17 17:04:34,418 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.CiDispatcher - http://localhost:8732/TOSCARemoteExecutionService
+2022-08-17 17:04:34,446 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.AbstractRemoteDispatcher - Starting remote execution
+2022-08-17 17:04:34,446 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.AbstractRemoteDispatcher - Configuration File Path:
+2022-08-17 17:05:25,779 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.CiDispatcher - Test execution has been finished.
+2022-08-17 17:05:25,779 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Program - Result was printed to >C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\ToscaCommander\ToscaCI\Client\result.xml<
+2022-08-17 17:08:13,073 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.LocalDispatcher -  Client started
+2022-08-17 17:08:13,092 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.LocalDispatcher - Starting local execution
+2022-08-17 17:08:13,092 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.LocalDispatcher - Configuration File Path:
+2022-08-17 17:08:13,104 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Getting license...
+2022-08-17 17:08:23,155 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Opening workspace: C:\Tosca_Projects\Tosca_Workspaces\Banco Pan\Banco Pan.tws
+2022-08-17 17:08:28,315 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Executing CI Test...
+2022-08-17 17:08:28,328 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Searching for BuildRootFolder...
+2022-08-17 17:08:28,639 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Single ContinuousIntegrationBuildRootFolder found: ExecutionLists
+2022-08-17 17:09:16,049 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Creating junit test result...
+2022-08-17 17:09:16,555 [1] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Closing workspace and restoring license...
+2022-08-17 17:09:31,915 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.LocalDispatcher - Test execution has been finished.
+2022-08-17 17:09:31,916 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Program - Result was printed to >C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\ToscaCommander\ToscaCI\Client\result.xml<
+2022-08-17 17:10:16,060 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.CiDispatcher - http://localhost:8732/TOSCARemoteExecutionService
+2022-08-17 17:10:16,088 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.AbstractRemoteDispatcher - Starting remote execution
+2022-08-17 17:10:16,088 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.AbstractRemoteDispatcher - Configuration File Path:
+2022-08-17 17:11:07,219 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.CiDispatcher - Test execution has been finished.
+2022-08-17 17:11:07,221 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Program - Result was printed to >C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\ToscaCommander\ToscaCI\Client\result.xml<
+2022-08-17 17:12:47,189 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.CiDispatcher - http://localhost:8732/TOSCARemoteExecutionService
+2022-08-17 17:12:47,219 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.AbstractRemoteDispatcher - Starting remote execution
+2022-08-17 17:12:47,219 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.AbstractRemoteDispatcher - Configuration File Path:
+2022-08-17 17:12:51,420 [1] ERROR TOSCAContinuousIntegration.TOSCACIClient.Program - Main: EndpointNotFoundException occured
+Não havia um ponto de extremidade em escuta em http://localhost:8732/TOSCARemoteExecutionService capaz de aceitar a mensagem. Em geral, isso é causado por um endereço ou ação de SOAP incorreta. Consulte InnerException, se presente, para obter mais detalhes.
+
+Server stack trace: 
+   em System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   em System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   em System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   em System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   em System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   em System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   em System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   em System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   em System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   em System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   em TOSCAContinuousIntegration.TOSCACIClient.ServiceReference1.IRemoteExecutionService.ExecuteWithoutConfig(String usernameHash, String passwordHash, String resultType)
+   em TOSCAContinuousIntegration.TOSCACIClient.Dispatching.CiDispatcher.Execute()
+Impossível conectar-se ao servidor remoto
+   em System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   em System.Net.HttpWebRequest.GetRequestStream()
+   em System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 127.0.0.1:8732
+   em System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   em System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   em TOSCAContinuousIntegration.TOSCACIClient.Dispatching.CiDispatcher.Execute()
+   em TOSCAContinuousIntegration.TOSCACIClient.Program.Main(String[] args)
+2022-08-17 17:21:36,685 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.CiDispatcher - http://localhost:8732/TOSCARemoteExecutionService
+2022-08-17 17:21:36,710 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.AbstractRemoteDispatcher - Starting remote execution
+2022-08-17 17:21:36,710 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.AbstractRemoteDispatcher - Configuration File Path:
+2022-08-17 17:22:30,531 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.CiDispatcher - Test execution has been finished.
+2022-08-17 17:22:30,532 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Program - Result was printed to >C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\ToscaCommander\ToscaCI\Client\result.xml<
+2022-08-17 17:26:28,948 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.CiDispatcher - http://localhost:8732/TOSCARemoteExecutionService
+2022-08-17 17:26:28,975 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.AbstractRemoteDispatcher - Starting remote execution
+2022-08-17 17:26:28,975 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.AbstractRemoteDispatcher - Configuration File Path:
+2022-08-17 17:27:12,186 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.CiDispatcher - Test execution has been finished.
+2022-08-17 17:27:12,186 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Program - Result was printed to >C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\ToscaCommander\ToscaCI\Client\result.xml<

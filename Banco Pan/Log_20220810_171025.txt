@@ -1,0 +1,4 @@
+[3] 17:10:25: Log started for 'C:\Tosca_Projects\Tosca_Workspaces\Banco Pan\Banco Pan.tws'
+[3] 17:10:25: Log level: 4
+[3] 17:10:25: Release: 14.2.0.36604
+[1] 17:10:25: ShowErrorMessage 'title=Error: Open Workspace', message='Could not open Workspace Respository for 'C:\Tosca_Projects\Tosca_Workspaces\Banco Pan\Banco Pan.tws'!'

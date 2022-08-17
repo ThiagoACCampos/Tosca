@@ -1,0 +1,30 @@
+[3] 16:56:40: Log started for 'C:\Tosca_Projects\Tosca_Workspaces\Banco Pan\Banco Pan.tws'
+[3] 16:56:40: Log level: 4
+[3] 16:56:40: Release: 14.2.0.36604
+[3] 16:56:43: No service discovery configured.
+[3] 16:56:43:  - CloudDistributedExecutionAddIn: CloudDistributedExecutionAddIn 14.2.0.256 (36571)
+[3] 16:56:43:  + DistributedExecutionAddIn: DistributedExecutionAddIn 14.2.0.256 (36303)
+[3] 16:56:43:  + ExploratoryTestingAssistant: ExploratoryTestingAssistantAddIn 14.2.0.256 (36303)
+[3] 16:56:43:  + ExploratoryTestingAssistantUI: ExploratoryTestingAssistantUIAddIn 14.2.0.256 (36303)
+[3] 16:56:43:  + IntegrationManagementAddIn: IntegrationManagementAddIn 14.2.0.256 (36422)
+    - : QTestIntegration 14.2.0.149 (149)
+    + : SAPSolutionManagerIntegration 14.2.0.149 (149)
+[3] 16:56:43: Search started on 1 objects for query '->PROJECT->SUBPARTS:TCFolder[Name=="Execution"]->SUBPARTS:TCFolder=>SUBPARTS:InteractiveSession'
+[3] 16:56:43: Searcher found 0 results in 174,3334 ms
+[3] 16:56:43:  + OptIntAddIn: OptIntAddIn 14.2.0.256 (36303)
+[3] 16:56:43:  + QTestIntegrationAddIn: QTestIntegrationAddIn 14.2.0.256 (36486)
+[3] 16:56:43:  + RemoteControl: RemoteControlAddIn 14.2.0.256 (36303)
+[3] 16:56:43:  + Reporting: ReportingAddIn 14.2.0.256 (36303)
+[3] 16:56:43:  + ReportingUI: ReportingUIAddIn 14.2.0.256 (36303)
+[3] 16:56:43:  + RequirementsManagementAddIn: RequirementsManagement 14.2.0.256 (36476)
+[3] 16:56:43:  + RequirementsManagementUIAddIn: RequirementsManagementUI 14.2.0.256 (36303)
+[3] 16:56:43:  + SAPSolutionManagerAddIn: SAPSolutionManagerAddIn 14.2.0.256 (36583)
+[3] 16:56:43:  + TestCaseDesign: TestCaseDesign 14.2.0.256 (36303)
+[3] 16:56:43:  + ControlFlowDiagram: TestCaseVisualizationAddIn 14.2.0.256 (36303)
+[3] 16:56:44:  + XDefinitions: XDefinitions 14.2.0.256 (36576)
+[3] 16:56:44:  + XDefinitionsUI: XDefinitionsUI 14.2.0.256 (36460)
+[3] 16:56:44: Opened from Workspace File 'C:\Tosca_Projects\Tosca_Workspaces\Banco Pan\Banco Pan.tws'
+[4] 16:56:45:  ShowStatusInfo: 'Ready'
+[3] 17:10:23: Layout not saved: No Panels or Tabbed Documents
+[3] 17:10:23: Closing Workspace!
+[3] 17:10:23: Log closed!

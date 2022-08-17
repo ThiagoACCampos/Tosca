@@ -1,0 +1,101 @@
+[3] 17:25:46: Log started for 'C:\Tosca_Projects\Tosca_Workspaces\Banco Pan\Banco Pan.tws'
+[3] 17:25:46: Log level: 4
+[3] 17:25:46: Release: 14.2.0.36604
+[3] 17:25:48: No service discovery configured.
+[3] 17:25:48:  - CloudDistributedExecutionAddIn: CloudDistributedExecutionAddIn 14.2.0.256 (36571)
+[3] 17:25:48:  + DistributedExecutionAddIn: DistributedExecutionAddIn 14.2.0.256 (36303)
+[3] 17:25:48:  + ExploratoryTestingAssistant: ExploratoryTestingAssistantAddIn 14.2.0.256 (36303)
+[3] 17:25:48:  + ExploratoryTestingAssistantUI: ExploratoryTestingAssistantUIAddIn 14.2.0.256 (36303)
+[3] 17:25:48:  + IntegrationManagementAddIn: IntegrationManagementAddIn 14.2.0.256 (36422)
+    - : QTestIntegration 14.2.0.149 (149)
+    + : SAPSolutionManagerIntegration 14.2.0.149 (149)
+[3] 17:25:48: Search started on 1 objects for query '->PROJECT->SUBPARTS:TCFolder[Name=="Execution"]->SUBPARTS:TCFolder=>SUBPARTS:InteractiveSession'
+[3] 17:25:48: Searcher found 0 results in 120,9552 ms
+[3] 17:25:48:  + OptIntAddIn: OptIntAddIn 14.2.0.256 (36303)
+[3] 17:25:48:  + QTestIntegrationAddIn: QTestIntegrationAddIn 14.2.0.256 (36486)
+[3] 17:25:48:  + RemoteControl: RemoteControlAddIn 14.2.0.256 (36303)
+[3] 17:25:48:  + Reporting: ReportingAddIn 14.2.0.256 (36303)
+[3] 17:25:48:  + ReportingUI: ReportingUIAddIn 14.2.0.256 (36303)
+[3] 17:25:48:  + RequirementsManagementAddIn: RequirementsManagement 14.2.0.256 (36476)
+[3] 17:25:48:  + RequirementsManagementUIAddIn: RequirementsManagementUI 14.2.0.256 (36303)
+[3] 17:25:48:  + SAPSolutionManagerAddIn: SAPSolutionManagerAddIn 14.2.0.256 (36583)
+[3] 17:25:48:  + TestCaseDesign: TestCaseDesign 14.2.0.256 (36303)
+[3] 17:25:48:  + ControlFlowDiagram: TestCaseVisualizationAddIn 14.2.0.256 (36303)
+[3] 17:25:48:  + XDefinitions: XDefinitions 14.2.0.256 (36576)
+[3] 17:25:48:  + XDefinitionsUI: XDefinitionsUI 14.2.0.256 (36460)
+[3] 17:25:48: Opened from Workspace File 'C:\Tosca_Projects\Tosca_Workspaces\Banco Pan\Banco Pan.tws'
+[4] 17:25:50:  ShowStatusInfo: 'Ready'
+[4] 17:25:53:  ShowStatusInfo: 'Refresh navigation view 'TestCases''
+[4] 17:25:53:  ShowStatusInfo: 'Refresh navigation view 'Modules''
+[4] 17:25:53:  ShowStatusInfo: 'Refresh navigation view 'TestCaseDesign''
+[4] 17:25:53:  ShowStatusInfo: 'Refresh navigation view 'Execution''
+[4] 17:25:53:  ShowStatusInfo: 'Ready'
+[4] 17:25:53:  ShowStatusInfo: 'Refresh navigation view 'ScratchBook''
+[4] 17:25:53:  ShowStatusInfo: 'Ready'
+[4] 17:25:53:  ShowStatusInfo: 'Refresh detail view 'TestCases''
+[4] 17:25:53:  ShowStatusInfo: 'Refresh detail view 'Modules''
+[4] 17:25:53:  ShowStatusInfo: 'Refresh detail view 'TestCaseDesign''
+[4] 17:25:53:  ShowStatusInfo: 'Refresh detail view 'Execution''
+[4] 17:25:53:  ShowStatusInfo: 'Ready'
+[4] 17:25:53:  ShowStatusInfo: 'Refresh detail view 'ScratchBook''
+[4] 17:25:53:  ShowStatusInfo: 'Ready'
+[4] 17:25:53:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 17:25:53:  ShowStatusInfo: 'Refresh all finished'
+[4] 17:25:53:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 17:25:53:  ShowStatusInfo: 'Refresh navigation view 'TestCases''
+[4] 17:25:53:  ShowStatusInfo: 'Refresh navigation view 'Modules''
+[4] 17:25:53:  ShowStatusInfo: 'Refresh navigation view 'TestCaseDesign''
+[4] 17:25:53:  ShowStatusInfo: 'Refresh navigation view 'Execution''
+[4] 17:25:54:  ShowStatusInfo: 'Ready'
+[4] 17:25:54:  ShowStatusInfo: 'Refresh navigation view 'ScratchBook''
+[4] 17:25:54:  ShowStatusInfo: 'Ready'
+[4] 17:25:54:  ShowStatusInfo: 'Refresh detail view 'TestCases''
+[4] 17:25:54:  ShowStatusInfo: 'Refresh detail view 'Modules''
+[4] 17:25:54:  ShowStatusInfo: 'Refresh detail view 'TestCaseDesign''
+[4] 17:25:54:  ShowStatusInfo: 'Refresh detail view 'Execution''
+[4] 17:25:54:  ShowStatusInfo: 'Ready'
+[4] 17:25:54:  ShowStatusInfo: 'Refresh detail view 'ScratchBook''
+[4] 17:25:54:  ShowStatusInfo: 'Ready'
+[4] 17:25:54:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 17:25:54:  ShowStatusInfo: 'Refresh all finished'
+[4] 17:25:54:  ShowStatusInfo: 'Refresh navigation view 'TestCases''
+[4] 17:25:54:  ShowStatusInfo: 'Refresh navigation view 'Modules''
+[4] 17:25:54:  ShowStatusInfo: 'Refresh navigation view 'TestCaseDesign''
+[4] 17:25:54:  ShowStatusInfo: 'Refresh navigation view 'Execution''
+[4] 17:25:54:  ShowStatusInfo: 'Ready'
+[4] 17:25:54:  ShowStatusInfo: 'Refresh navigation view 'ScratchBook''
+[4] 17:25:54:  ShowStatusInfo: 'Ready'
+[4] 17:25:54:  ShowStatusInfo: 'Refresh detail view 'TestCases''
+[4] 17:25:54:  ShowStatusInfo: 'Refresh detail view 'Modules''
+[4] 17:25:54:  ShowStatusInfo: 'Refresh detail view 'TestCaseDesign''
+[4] 17:25:54:  ShowStatusInfo: 'Refresh detail view 'Execution''
+[4] 17:25:54:  ShowStatusInfo: 'Ready'
+[4] 17:25:54:  ShowStatusInfo: 'Refresh detail view 'ScratchBook''
+[4] 17:25:54:  ShowStatusInfo: 'Ready'
+[4] 17:25:54:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 17:25:54:  ShowStatusInfo: 'Refresh all finished'
+[0] 17:25:54: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tricentis.TCCore.Base.Workspace.IsFileServiceEnabledInRepository()
+[3] 17:25:54: OpenWorkspace took 00:00:07.8895470 to finish
+[4] 17:25:56:  ShowStatusInfo: 'Refresh navigation view 'TestCases''
+[4] 17:25:56:  ShowStatusInfo: 'Ready'
+[4] 17:25:56:  ShowStatusInfo: 'Refresh detail view 'TestCases''
+[4] 17:25:56:  ShowStatusInfo: 'Ready'
+[4] 17:25:56:  ShowStatusInfo: 'Refresh view finished'
+[4] 17:25:57:  ShowStatusInfo: 'Ready'
+[4] 17:25:57:  ShowStatusInfo: '1 object selected'
+[4] 17:25:59:  ShowStatusInfo: 'Ready'
+[4] 17:26:00:  ShowStatusInfo: '1 object selected'
+[4] 17:26:00:  ShowStatusInfo: 'Ready'
+[4] 17:26:01:  ShowStatusInfo: '1 object selected'
+[4] 17:26:02:  ShowStatusInfo: 'Ready'
+[4] 17:26:06:  ShowStatusInfo: '1 object selected'
+[4] 17:26:06:  ShowStatusInfo: 'Ready'
+[4] 17:26:13:  ShowStatusInfo: '1 object selected'
+[4] 17:26:14:  ShowStatusInfo: 'Saving ...'
+[3] 17:26:14:  Save started!
+[3] 17:26:14:  Save finished!
+[4] 17:26:14:  ShowStatusInfo: 'Saved successfully'
+[4] 17:26:14:  ShowStatusInfo: 'Ready'
+[3] 17:26:19: Closing Workspace!
+[3] 17:26:20: Log closed!

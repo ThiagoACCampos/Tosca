@@ -1,0 +1,44 @@
+[3] 16:30:22: Log started for 'C:\Tosca_Projects\Tosca_Workspaces\Banco Pan\Banco Pan.tws'
+[3] 16:30:22: Log level: 4
+[3] 16:30:22: Release: 29.12.13.0
+[3] 16:30:22: Resolved assembly 'combit.ListLabel21, Version=21.5.6045.29216, Culture=neutral, PublicKeyToken=a7a30592cb4a94be' from 'C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\ToscaCommander\Reporting\ListAndLabel\MostRecent\combit.ListLabel21.dll'
+[3] 16:30:26: No service discovery configured.
+[3] 16:30:26:  - CloudDistributedExecutionAddIn: CloudDistributedExecutionAddIn 14.2.0.256 (36571)
+[3] 16:30:26:  + DistributedExecutionAddIn: DistributedExecutionAddIn 14.2.0.256 (36303)
+[3] 16:30:26:  - ExploratoryTestingAssistant: ExploratoryTestingAssistantAddIn 14.2.0.256 (36303)
+[3] 16:30:26:  - ExploratoryTestingAssistantUI: ExploratoryTestingAssistantUIAddIn 14.2.0.256 (36303)
+[3] 16:30:26:  + IntegrationManagementAddIn: IntegrationManagementAddIn 14.2.0.256 (36422)
+    - : QTestIntegration 14.2.0.149 (149)
+    + : SAPSolutionManagerIntegration 14.2.0.149 (149)
+[3] 16:30:26: Search started on 1 objects for query '->PROJECT->SUBPARTS:TCFolder[Name=="Execution"]->SUBPARTS:TCFolder=>SUBPARTS:InteractiveSession'
+[3] 16:30:26: Searcher found 0 results in 168,8553 ms
+[3] 16:30:26:  + OptIntAddIn: OptIntAddIn 14.2.0.256 (36303)
+[3] 16:30:26:  + QTestIntegrationAddIn: QTestIntegrationAddIn 14.2.0.256 (36486)
+[3] 16:30:26:  + RemoteControl: RemoteControlAddIn 14.2.0.256 (36303)
+[3] 16:30:26:  + Reporting: ReportingAddIn 14.2.0.256 (36303)
+[3] 16:30:26:  + ReportingUI: ReportingUIAddIn 14.2.0.256 (36303)
+[3] 16:30:26:  - RequirementsManagementAddIn: RequirementsManagement 14.2.0.256 (36476)
+[3] 16:30:26:  - RequirementsManagementUIAddIn: RequirementsManagementUI 14.2.0.256 (36303)
+[3] 16:30:26:  + SAPSolutionManagerAddIn: SAPSolutionManagerAddIn 14.2.0.256 (36583)
+[3] 16:30:26:  - TestCaseDesign: TestCaseDesign 14.2.0.256 (36303)
+[3] 16:30:26:  - ControlFlowDiagram: TestCaseVisualizationAddIn 14.2.0.256 (36303)
+[3] 16:30:26:  + XDefinitions: XDefinitions 14.2.0.256 (36576)
+[3] 16:30:26:  + XDefinitionsUI: XDefinitionsUI 14.2.0.256 (36460)
+[3] 16:30:26: Search started on 'Banco Pan' for query '=>SUBPARTS:TCFolder[(PossibleContent=?"ExecutionList") AND (ContinuousIntegrationBuildRootFolder=i="true") AND (IsViewingAllowed=i="true")]'
+[3] 16:30:27: Searcher found 1 results in 280,0971 ms
+[3] 16:30:27: Search started on 'Banco Pan' for query '=>SUBPARTS:ExecutionList[(ContinuousIntegration=i="true") AND (IsViewingAllowed=i="true")]'
+[3] 16:30:27: Searcher found 1 results in 8,7068 ms
+[3] 16:30:27: API: Executing Task Tricentis.TCCore.BusinessObjects.Tasks.CreateTCFolderTask
+[3] 16:30:28: API: Executing Task Tricentis.TCCore.BusinessObjects.Tasks.CreateExecutionMandateTask
+[3] 16:30:28: API: Executing Task Tricentis.TCCore.BusinessObjects.Tasks.ClearActuallExecutionLogTask
+[3] 16:30:28: API: Executing Task Tricentis.TCCore.BusinessObjects.Tasks.ClearAutoMergeListTask
+[3] 16:30:28: API: Executing DropTask Tricentis.TCCore.BusinessObjects.Tasks.AssignMandateDropTask
+[3] 16:30:28: API: Executing Task Tricentis.TCCore.BusinessObjects.Tasks.RunExecutionListTask
+[3] 16:31:13: AgentResults count: 1
+[3] 16:31:14: executionResponses count: 1
+[3] 16:31:15: Task 'Run' finished
+[3] 16:31:15: Saving changes
+[3] 16:31:15:  Save started!
+[3] 16:31:16:  Save finished!
+[3] 16:31:16: Closing Workspace
+[3] 16:31:16: Log closed!

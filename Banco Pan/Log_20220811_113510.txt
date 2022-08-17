@@ -1,0 +1,4 @@
+[3] 11:35:10: Log started for 'C:\Tosca_Projects\Tosca_Workspaces\Banco Pan\Banco Pan.tws'
+[3] 11:35:10: Log level: 4
+[3] 11:35:10: Release: 14.2.0.36604
+[4] 11:35:10:  ShowStatusInfo: 'Ready'

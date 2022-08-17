@@ -1,0 +1,175 @@
+2022-08-17 15:50:08,526 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Try to restart: 1. atempt.
+2022-08-17 15:50:08,639 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost opened.
+2022-08-17 15:50:08,644 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program -  Server is up and running...
+2022-08-17 15:50:08,645 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - http://localhost:8732/TOSCARemoteExecutionService/
+2022-08-17 15:50:08,645 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - System.String ExecuteWithConfig(System.String, System.String, System.String, System.String)
+2022-08-17 15:50:08,646 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - System.String ExecuteWithoutConfig(System.String, System.String, System.String)
+2022-08-17 15:50:08,646 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - System.Guid StartExecuteWithConfig(System.String, System.String, System.String)
+2022-08-17 15:50:08,646 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - System.Guid StartExecuteWithoutConfig(System.String, System.String)
+2022-08-17 15:50:08,646 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - TOSCAContinuousIntegration.TOSCACIExecution.CIExecutionInfo GetExecutionInfo(Byte[])
+2022-08-17 15:50:08,646 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - Void StopExecution(System.Guid)
+2022-08-17 15:54:20,907 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Void StartService() Recovery did not work. Closing Service.
+2022-08-17 15:54:28,563 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Try to restart: 1. atempt.
+2022-08-17 15:54:28,667 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost opened.
+2022-08-17 15:54:28,673 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program -  Server is up and running...
+2022-08-17 15:54:28,674 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - http://localhost:8732/TOSCARemoteExecutionService/
+2022-08-17 15:54:28,674 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - System.String ExecuteWithConfig(System.String, System.String, System.String, System.String)
+2022-08-17 15:54:28,675 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - System.String ExecuteWithoutConfig(System.String, System.String, System.String)
+2022-08-17 15:54:28,675 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - System.Guid StartExecuteWithConfig(System.String, System.String, System.String)
+2022-08-17 15:54:28,675 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - System.Guid StartExecuteWithoutConfig(System.String, System.String)
+2022-08-17 15:54:28,675 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - TOSCAContinuousIntegration.TOSCACIExecution.CIExecutionInfo GetExecutionInfo(Byte[])
+2022-08-17 15:54:28,675 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - Void StopExecution(System.Guid)
+2022-08-17 15:54:52,296 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Try to restart: 1. atempt.
+2022-08-17 15:54:52,403 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost in faulted state! 
+2022-08-17 15:54:52,404 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost will be restarted...
+2022-08-17 15:54:52,425 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - O HTTP não pode registrar a URL http://+:8080/TOSCARemoteExecutionService/ porque a porta TCP 8080 está sendo usada por outro aplicativo.
+O arquivo já está sendo usado por outro processo
+   em System.Net.HttpListener.AddAllPrefixes()
+   em System.Net.HttpListener.Start()
+   em System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   em System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   em System.ServiceModel.Channels.TransportManager.Open(TransportChannelListener channelListener)
+   em System.ServiceModel.Channels.TransportManagerContainer.Open(SelectTransportManagersCallback selectTransportManagerCallback)
+   em System.ServiceModel.Channels.TransportChannelListener.OnOpen(TimeSpan timeout)
+   em System.ServiceModel.Channels.HttpChannelListener`1.OnOpen(TimeSpan timeout)
+   em System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   em System.ServiceModel.Dispatcher.ChannelDispatcher.OnOpen(TimeSpan timeout)
+   em System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   em System.ServiceModel.ServiceHostBase.OnOpen(TimeSpan timeout)
+   em System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   em TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program.StartServiceInternal()
+2022-08-17 15:54:54,431 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Try to restart: 2. atempt.
+2022-08-17 15:54:54,438 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost in faulted state! 
+2022-08-17 15:54:54,439 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost will be restarted...
+2022-08-17 15:54:54,439 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - O HTTP não pode registrar a URL http://+:8080/TOSCARemoteExecutionService/ porque a porta TCP 8080 está sendo usada por outro aplicativo.
+O arquivo já está sendo usado por outro processo
+   em System.Net.HttpListener.AddAllPrefixes()
+   em System.Net.HttpListener.Start()
+   em System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   em System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   em System.ServiceModel.Channels.TransportManager.Open(TransportChannelListener channelListener)
+   em System.ServiceModel.Channels.TransportManagerContainer.Open(SelectTransportManagersCallback selectTransportManagerCallback)
+   em System.ServiceModel.Channels.TransportChannelListener.OnOpen(TimeSpan timeout)
+   em System.ServiceModel.Channels.HttpChannelListener`1.OnOpen(TimeSpan timeout)
+   em System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   em System.ServiceModel.Dispatcher.ChannelDispatcher.OnOpen(TimeSpan timeout)
+   em System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   em System.ServiceModel.ServiceHostBase.OnOpen(TimeSpan timeout)
+   em System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   em TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program.StartServiceInternal()
+2022-08-17 15:54:56,443 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Try to restart: 3. atempt.
+2022-08-17 15:55:06,909 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost in faulted state! 
+2022-08-17 15:55:06,909 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost will be restarted...
+2022-08-17 15:55:06,910 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - O HTTP não pode registrar a URL http://+:8080/TOSCARemoteExecutionService/ porque a porta TCP 8080 está sendo usada por outro aplicativo.
+O arquivo já está sendo usado por outro processo
+   em System.Net.HttpListener.AddAllPrefixes()
+   em System.Net.HttpListener.Start()
+   em System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   em System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   em System.ServiceModel.Channels.TransportManager.Open(TransportChannelListener channelListener)
+   em System.ServiceModel.Channels.TransportManagerContainer.Open(SelectTransportManagersCallback selectTransportManagerCallback)
+   em System.ServiceModel.Channels.TransportChannelListener.OnOpen(TimeSpan timeout)
+   em System.ServiceModel.Channels.HttpChannelListener`1.OnOpen(TimeSpan timeout)
+   em System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   em System.ServiceModel.Dispatcher.ChannelDispatcher.OnOpen(TimeSpan timeout)
+   em System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   em System.ServiceModel.ServiceHostBase.OnOpen(TimeSpan timeout)
+   em System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   em TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program.StartServiceInternal()
+2022-08-17 15:59:41,788 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Try to restart: 1. atempt.
+2022-08-17 15:59:41,902 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost opened.
+2022-08-17 15:59:41,907 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program -  Server is up and running...
+2022-08-17 15:59:41,907 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - http://localhost:8732/TOSCARemoteExecutionService/
+2022-08-17 15:59:41,908 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - System.String ExecuteWithConfig(System.String, System.String, System.String, System.String)
+2022-08-17 15:59:41,909 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - System.String ExecuteWithoutConfig(System.String, System.String, System.String)
+2022-08-17 15:59:41,909 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - System.Guid StartExecuteWithConfig(System.String, System.String, System.String)
+2022-08-17 15:59:41,909 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - System.Guid StartExecuteWithoutConfig(System.String, System.String)
+2022-08-17 15:59:41,909 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - TOSCAContinuousIntegration.TOSCACIExecution.CIExecutionInfo GetExecutionInfo(Byte[])
+2022-08-17 15:59:41,909 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - Void StopExecution(System.Guid)
+2022-08-17 16:28:55,305 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Try to restart: 1. atempt.
+2022-08-17 16:28:55,413 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost opened.
+2022-08-17 16:28:55,417 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program -  Server is up and running...
+2022-08-17 16:28:55,418 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - http://localhost:8732/TOSCARemoteExecutionService/
+2022-08-17 16:28:55,418 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - System.String ExecuteWithConfig(System.String, System.String, System.String, System.String)
+2022-08-17 16:28:55,418 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - System.String ExecuteWithoutConfig(System.String, System.String, System.String)
+2022-08-17 16:28:55,419 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - System.Guid StartExecuteWithConfig(System.String, System.String, System.String)
+2022-08-17 16:28:55,419 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - System.Guid StartExecuteWithoutConfig(System.String, System.String)
+2022-08-17 16:28:55,419 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - TOSCAContinuousIntegration.TOSCACIExecution.CIExecutionInfo GetExecutionInfo(Byte[])
+2022-08-17 16:28:55,419 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - Void StopExecution(System.Guid)
+2022-08-17 17:01:38,217 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Try to restart: 1. atempt.
+2022-08-17 17:01:38,329 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost opened.
+2022-08-17 17:01:38,335 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program -  Server is up and running...
+2022-08-17 17:01:38,335 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - http://localhost:8732/TOSCARemoteExecutionService/
+2022-08-17 17:01:38,335 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - System.String ExecuteWithConfig(System.String, System.String, System.String, System.String)
+2022-08-17 17:01:38,335 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - System.String ExecuteWithoutConfig(System.String, System.String, System.String)
+2022-08-17 17:01:38,336 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - System.Guid StartExecuteWithConfig(System.String, System.String, System.String)
+2022-08-17 17:01:38,336 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - System.Guid StartExecuteWithoutConfig(System.String, System.String)
+2022-08-17 17:01:38,336 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - TOSCAContinuousIntegration.TOSCACIExecution.CIExecutionInfo GetExecutionInfo(Byte[])
+2022-08-17 17:01:38,336 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - Void StopExecution(System.Guid)
+2022-08-17 17:04:34,626 [7] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Service.RemoteExecutionService - Executing test without configuration
+2022-08-17 17:04:34,993 [7] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Getting license...
+2022-08-17 17:04:44,556 [7] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Opening workspace: C:\Tosca_Projects\Tosca_Workspaces\Banco Pan\Banco Pan.tws
+2022-08-17 17:04:48,483 [7] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Executing CI Test...
+2022-08-17 17:04:48,495 [7] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Searching for BuildRootFolder...
+2022-08-17 17:04:48,759 [7] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Single ContinuousIntegrationBuildRootFolder found: ExecutionLists
+2022-08-17 17:05:12,896 [7] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Creating junit test result...
+2022-08-17 17:05:13,208 [7] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Closing workspace and restoring license...
+2022-08-17 17:05:25,746 [7] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Dispatching.ExecutionDispatcher - Test execution has been finished.
+2022-08-17 17:07:55,100 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Void StartService() Recovery did not work. Closing Service.
+2022-08-17 17:08:04,882 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Try to restart: 1. atempt.
+2022-08-17 17:08:05,003 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost opened.
+2022-08-17 17:08:05,008 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program -  Server is up and running...
+2022-08-17 17:08:05,009 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - http://localhost:8732/TOSCARemoteExecutionService/
+2022-08-17 17:08:05,009 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - System.String ExecuteWithConfig(System.String, System.String, System.String, System.String)
+2022-08-17 17:08:05,009 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - System.String ExecuteWithoutConfig(System.String, System.String, System.String)
+2022-08-17 17:08:05,010 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - System.Guid StartExecuteWithConfig(System.String, System.String, System.String)
+2022-08-17 17:08:05,010 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - System.Guid StartExecuteWithoutConfig(System.String, System.String)
+2022-08-17 17:08:05,010 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - TOSCAContinuousIntegration.TOSCACIExecution.CIExecutionInfo GetExecutionInfo(Byte[])
+2022-08-17 17:08:05,011 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - Void StopExecution(System.Guid)
+2022-08-17 17:10:16,154 [5] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Service.RemoteExecutionService - Executing test without configuration
+2022-08-17 17:10:16,534 [5] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Getting license...
+2022-08-17 17:10:28,372 [5] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Opening workspace: C:\Tosca_Projects\Tosca_Workspaces\Banco Pan\Banco Pan.tws
+2022-08-17 17:10:32,009 [5] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Executing CI Test...
+2022-08-17 17:10:32,022 [5] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Searching for BuildRootFolder...
+2022-08-17 17:10:32,250 [5] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Single ContinuousIntegrationBuildRootFolder found: ExecutionLists
+2022-08-17 17:10:54,649 [5] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Creating junit test result...
+2022-08-17 17:10:54,956 [5] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Closing workspace and restoring license...
+2022-08-17 17:11:07,203 [5] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Dispatching.ExecutionDispatcher - Test execution has been finished.
+2022-08-17 17:13:10,369 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Try to restart: 1. atempt.
+2022-08-17 17:13:10,489 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost opened.
+2022-08-17 17:13:10,496 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program -  Server is up and running...
+2022-08-17 17:13:10,496 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - http://localhost:8732/TOSCARemoteExecutionService/
+2022-08-17 17:13:10,496 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - System.String ExecuteWithConfig(System.String, System.String, System.String, System.String)
+2022-08-17 17:13:10,497 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - System.String ExecuteWithoutConfig(System.String, System.String, System.String)
+2022-08-17 17:13:10,497 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - System.Guid StartExecuteWithConfig(System.String, System.String, System.String)
+2022-08-17 17:13:10,497 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - System.Guid StartExecuteWithoutConfig(System.String, System.String)
+2022-08-17 17:13:10,497 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - TOSCAContinuousIntegration.TOSCACIExecution.CIExecutionInfo GetExecutionInfo(Byte[])
+2022-08-17 17:13:10,497 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - Void StopExecution(System.Guid)
+2022-08-17 17:21:31,939 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Try to restart: 1. atempt.
+2022-08-17 17:21:32,075 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost opened.
+2022-08-17 17:21:32,081 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program -  Server is up and running...
+2022-08-17 17:21:32,082 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - http://localhost:8732/TOSCARemoteExecutionService/
+2022-08-17 17:21:32,082 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - System.String ExecuteWithConfig(System.String, System.String, System.String, System.String)
+2022-08-17 17:21:32,082 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - System.String ExecuteWithoutConfig(System.String, System.String, System.String)
+2022-08-17 17:21:32,082 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - System.Guid StartExecuteWithConfig(System.String, System.String, System.String)
+2022-08-17 17:21:32,082 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - System.Guid StartExecuteWithoutConfig(System.String, System.String)
+2022-08-17 17:21:32,083 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - TOSCAContinuousIntegration.TOSCACIExecution.CIExecutionInfo GetExecutionInfo(Byte[])
+2022-08-17 17:21:32,083 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - Void StopExecution(System.Guid)
+2022-08-17 17:21:36,781 [5] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Service.RemoteExecutionService - Executing test without configuration
+2022-08-17 17:21:37,109 [5] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Getting license...
+2022-08-17 17:21:47,839 [5] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Opening workspace: C:\Tosca_Projects\Tosca_Workspaces\Banco Pan\Banco Pan.tws
+2022-08-17 17:21:51,825 [5] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Executing CI Test...
+2022-08-17 17:21:51,836 [5] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Searching for BuildRootFolder...
+2022-08-17 17:21:52,072 [5] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Single ContinuousIntegrationBuildRootFolder found: ExecutionLists
+2022-08-17 17:22:18,046 [5] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Creating junit test result...
+2022-08-17 17:22:18,348 [5] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Closing workspace and restoring license...
+2022-08-17 17:22:30,514 [5] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Dispatching.ExecutionDispatcher - Test execution has been finished.
+2022-08-17 17:26:29,034 [26] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Service.RemoteExecutionService - Executing test without configuration
+2022-08-17 17:26:29,035 [26] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Getting license...
+2022-08-17 17:26:29,036 [26] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Opening workspace: C:\Tosca_Projects\Tosca_Workspaces\Banco Pan\Banco Pan.tws
+2022-08-17 17:26:44,374 [26] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Executing CI Test...
+2022-08-17 17:26:44,387 [26] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Searching for BuildRootFolder...
+2022-08-17 17:26:44,658 [26] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Single ContinuousIntegrationBuildRootFolder found: ExecutionLists
+2022-08-17 17:27:09,492 [26] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Creating junit test result...
+2022-08-17 17:27:09,779 [26] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Closing workspace and restoring license...
+2022-08-17 17:27:12,172 [26] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Dispatching.ExecutionDispatcher - Test execution has been finished.

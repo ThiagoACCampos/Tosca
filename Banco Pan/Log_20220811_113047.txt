@@ -1,0 +1,4 @@
+[3] 11:30:47: Log started for 'C:\Tosca_Projects\Tosca_Workspaces\Banco Pan\Banco Pan.tws'
+[3] 11:30:47: Log level: 4
+[3] 11:30:47: Release: 14.2.0.36604
+[3] 11:30:47: OpenWorkspace took 00:00:23.5487148 to finish

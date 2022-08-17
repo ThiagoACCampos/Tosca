@@ -1,0 +1,90 @@
+[3] 16:35:25: Log started for 'C:\Tosca_Projects\Tosca_Workspaces\Banco Pan\Banco Pan.tws'
+[3] 16:35:25: Log level: 4
+[3] 16:35:25: Release: 14.2.0.36604
+[3] 16:35:25: No service discovery configured.
+[3] 16:35:25:  - CloudDistributedExecutionAddIn: CloudDistributedExecutionAddIn 14.2.0.256 (36571)
+[3] 16:35:25:  + DistributedExecutionAddIn: DistributedExecutionAddIn 14.2.0.256 (36303)
+[3] 16:35:25:  + ExploratoryTestingAssistant: ExploratoryTestingAssistantAddIn 14.2.0.256 (36303)
+[3] 16:35:25:  + ExploratoryTestingAssistantUI: ExploratoryTestingAssistantUIAddIn 14.2.0.256 (36303)
+[3] 16:35:25:  + IntegrationManagementAddIn: IntegrationManagementAddIn 14.2.0.256 (36422)
+    - : QTestIntegration 14.2.0.149 (149)
+    + : SAPSolutionManagerIntegration 14.2.0.149 (149)
+[3] 16:35:25: Search started on 1 objects for query '->PROJECT->SUBPARTS:TCFolder[Name=="Execution"]->SUBPARTS:TCFolder=>SUBPARTS:InteractiveSession'
+[3] 16:35:25: Searcher found 0 results in 15,0058 ms
+[3] 16:35:25:  + OptIntAddIn: OptIntAddIn 14.2.0.256 (36303)
+[3] 16:35:25:  + QTestIntegrationAddIn: QTestIntegrationAddIn 14.2.0.256 (36486)
+[3] 16:35:25:  + RemoteControl: RemoteControlAddIn 14.2.0.256 (36303)
+[3] 16:35:25:  + Reporting: ReportingAddIn 14.2.0.256 (36303)
+[3] 16:35:25:  + ReportingUI: ReportingUIAddIn 14.2.0.256 (36303)
+[3] 16:35:25:  + RequirementsManagementAddIn: RequirementsManagement 14.2.0.256 (36476)
+[3] 16:35:25:  + RequirementsManagementUIAddIn: RequirementsManagementUI 14.2.0.256 (36303)
+[3] 16:35:25:  + SAPSolutionManagerAddIn: SAPSolutionManagerAddIn 14.2.0.256 (36583)
+[3] 16:35:25:  + TestCaseDesign: TestCaseDesign 14.2.0.256 (36303)
+[3] 16:35:25:  + ControlFlowDiagram: TestCaseVisualizationAddIn 14.2.0.256 (36303)
+[3] 16:35:25:  + XDefinitions: XDefinitions 14.2.0.256 (36576)
+[3] 16:35:25:  + XDefinitionsUI: XDefinitionsUI 14.2.0.256 (36460)
+[3] 16:35:25: Opened from Workspace File 'C:\Tosca_Projects\Tosca_Workspaces\Banco Pan\Banco Pan.tws'
+[4] 16:35:26:  ShowStatusInfo: 'Refresh navigation view 'TestCases''
+[4] 16:35:26:  ShowStatusInfo: 'Refresh navigation view 'Modules''
+[4] 16:35:26:  ShowStatusInfo: 'Refresh navigation view 'TestCaseDesign''
+[4] 16:35:26:  ShowStatusInfo: 'Refresh navigation view 'Execution''
+[4] 16:35:26:  ShowStatusInfo: 'Ready'
+[4] 16:35:26:  ShowStatusInfo: 'Refresh navigation view 'ScratchBook''
+[4] 16:35:26:  ShowStatusInfo: 'Ready'
+[4] 16:35:26:  ShowStatusInfo: 'Refresh detail view 'TestCases''
+[4] 16:35:26:  ShowStatusInfo: 'Refresh detail view 'Modules''
+[4] 16:35:26:  ShowStatusInfo: 'Refresh detail view 'TestCaseDesign''
+[4] 16:35:26:  ShowStatusInfo: 'Refresh detail view 'Execution''
+[4] 16:35:26:  ShowStatusInfo: 'Ready'
+[4] 16:35:26:  ShowStatusInfo: 'Refresh detail view 'ScratchBook''
+[4] 16:35:26:  ShowStatusInfo: 'Ready'
+[4] 16:35:26:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 16:35:26:  ShowStatusInfo: 'Refresh all finished'
+[4] 16:35:26:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 16:35:26:  ShowStatusInfo: 'Refresh navigation view 'TestCases''
+[4] 16:35:26:  ShowStatusInfo: 'Refresh navigation view 'Modules''
+[4] 16:35:26:  ShowStatusInfo: 'Refresh navigation view 'TestCaseDesign''
+[4] 16:35:26:  ShowStatusInfo: 'Refresh navigation view 'Execution''
+[4] 16:35:26:  ShowStatusInfo: 'Ready'
+[4] 16:35:26:  ShowStatusInfo: 'Refresh navigation view 'ScratchBook''
+[4] 16:35:26:  ShowStatusInfo: 'Ready'
+[4] 16:35:26:  ShowStatusInfo: 'Refresh detail view 'TestCases''
+[4] 16:35:26:  ShowStatusInfo: 'Refresh detail view 'Modules''
+[4] 16:35:26:  ShowStatusInfo: 'Refresh detail view 'TestCaseDesign''
+[4] 16:35:26:  ShowStatusInfo: 'Refresh detail view 'Execution''
+[4] 16:35:26:  ShowStatusInfo: 'Ready'
+[4] 16:35:26:  ShowStatusInfo: 'Refresh detail view 'ScratchBook''
+[4] 16:35:26:  ShowStatusInfo: 'Ready'
+[4] 16:35:26:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 16:35:26:  ShowStatusInfo: 'Refresh all finished'
+[0] 16:35:26: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tricentis.TCCore.Base.Workspace.IsFileServiceEnabledInRepository()
+[3] 16:35:26: OpenWorkspace took 00:00:03.0681149 to finish
+[4] 16:35:29:  ShowStatusInfo: '1 object selected'
+[4] 16:35:30:  ShowStatusInfo: 'Ready'
+[4] 16:35:33:  ShowStatusInfo: '1 object selected'
+[4] 16:35:33:  ShowStatusInfo: 'Ready'
+[4] 16:35:34:  ShowStatusInfo: '1 object selected'
+[4] 16:35:36:  ShowStatusInfo: 'Ready'
+[4] 16:35:36:  ShowStatusInfo: '1 object selected'
+[4] 16:35:36:  ShowStatusInfo: 'Ready'
+[4] 16:35:38:  ShowStatusInfo: '1 object selected'
+[4] 16:35:38:  ShowStatusInfo: 'Ready'
+[4] 16:35:40:  ShowStatusInfo: '1 object selected'
+[4] 16:35:40:  ShowStatusInfo: 'Ready'
+[4] 16:35:42:  ShowStatusInfo: '1 object selected'
+[4] 16:35:42:  ShowStatusInfo: 'Ready'
+[4] 16:35:56:  ShowStatusInfo: '1 object selected'
+[4] 16:36:01:  ShowStatusInfo: 'Ready'
+[4] 16:37:04:  ShowStatusInfo: '1 object selected'
+[4] 16:37:05:  ShowStatusInfo: 'Ready'
+[4] 16:37:07:  ShowStatusInfo: '1 object selected'
+[4] 16:37:07:  ShowStatusInfo: 'Ready'
+[4] 16:37:08:  ShowStatusInfo: '1 object selected'
+[4] 16:37:09:  ShowStatusInfo: 'Saving ...'
+[3] 16:37:09:  Save started!
+[3] 16:37:09:  Save finished!
+[4] 16:37:09:  ShowStatusInfo: 'Saved successfully'
+[4] 16:37:09:  ShowStatusInfo: 'Ready'
+[3] 16:37:13: Closing Workspace!
+[3] 16:37:13: Log closed!
